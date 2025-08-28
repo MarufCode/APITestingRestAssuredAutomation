@@ -5,17 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ba1fb613-5711-48d0-86ea-29fad44683ce" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/DesignPatternInJava.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/HelloWorld.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/NoDesignPattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/RestAssuredTC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Tests/CRUD/GET/NonBDDStyle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Tests/CRUD/GET/TestNGGETRequestNonBDD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/DesignPatternInJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/builderPackageDemo/DesignPatternInJava.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/HelloWorld.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/NoDesignPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/builderPackageDemo/NoDesignPattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/RestAssuredTC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/Tests/CRUD/GET/BDDStyleGET.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,9 +29,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="31oxyMSO03g4syigCdyyYWSFzjX" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -43,25 +40,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.HelloWorld.executor": "Run",
-    "Application.RestAssuredTC.executor": "Run",
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "Maven.APITestingRestAssuredAutomation [clean].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.DesignPatternInJava.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HelloWorld.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NonBDDStyle.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RestAssuredTC.executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.APITestingRestAssuredAutomation [clean].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TestNG.C:/Users/Maruf.sherikar.EXT.SVKMGRP/IdeaProjects/APITestingRestAssuredAutomation/testng.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestNGGETRequestNonBDD.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.RestAssuredTC">
-    <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.HelloWorld" />
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.Tests.CRUD.GET" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.C:/Users/Maruf.sherikar.EXT.SVKMGRP/IdeaProjects/APITestingRestAssuredAutomation/testng.xml">
+    <configuration name="BDDStyleGET" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Tests.CRUD.GET.BDDStyleGET" />
       <module name="APITestingRestAssuredAutomation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.builderPackageDemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,23 +76,66 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RestAssuredTC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.RestAssuredTC" />
+    <configuration name="DesignPatternInJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.builderPackageDemo.DesignPatternInJava" />
       <module name="APITestingRestAssuredAutomation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.builderPackageDemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NonBDDStyle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Tests.CRUD.GET.NonBDDStyle" />
+      <module name="APITestingRestAssuredAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.Tests.CRUD.GET.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/Maruf.sherikar.EXT.SVKMGRP/IdeaProjects/APITestingRestAssuredAutomation/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APITestingRestAssuredAutomation" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestNGGETRequestNonBDD" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APITestingRestAssuredAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.Tests.CRUD.GET.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.Tests.CRUD.GET" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Tests.CRUD.GET.TestNGGETRequestNonBDD" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RestAssuredTC" />
-        <item itemvalue="Application.HelloWorld" />
+        <item itemvalue="TestNG.C:/Users/Maruf.sherikar.EXT.SVKMGRP/IdeaProjects/APITestingRestAssuredAutomation/testng.xml" />
+        <item itemvalue="TestNG.TestNGGETRequestNonBDD" />
+        <item itemvalue="Application.NonBDDStyle" />
+        <item itemvalue="Application.DesignPatternInJava" />
+        <item itemvalue="Application.BDDStyleGET" />
       </list>
     </recent_temporary>
   </component>

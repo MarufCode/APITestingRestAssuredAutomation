@@ -1,8 +1,8 @@
-package org.example;
+package org.example.Tests.CRUD.GET;
 
 import io.restassured.RestAssured;
 
-public class RestAssuredTC {
+public class BDDStyleGET {
     public static void main(String[] args) {
 
 
