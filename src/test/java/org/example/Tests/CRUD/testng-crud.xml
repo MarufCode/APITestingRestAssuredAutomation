@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/Maruf.sherikar.EXT.SVKMGRP/IdeaProjects/APITestingRestAssuredAutomation">
+        <classes>
+            <class name="org.example.Tests.CRUD.GET.NonBDDStyle">
+            </class>
+            <class name="org.example.Tests.CRUD.POST.NonBDDPOST">
+            </class>
+            <class name="org.example.Tests.CRUD.PATCH.NonBDDPATCH">
+            </class>
+            <class name="org.example.Tests.CRUD.PUT.NonBDDPUT">
+            </class>
+            <class name="org.example.Tests.CRUD.DELETE.NonBDDDELETE">
+            </class>
+        </classes>
+    </test>
+</suite>
