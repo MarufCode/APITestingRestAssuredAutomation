@@ -5,11 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ba1fb613-5711-48d0-86ea-29fad44683ce" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Tests/CRUD/DELETE/NonBDDDELETE.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Tests/CRUD/PATCH/NonBDDPATCH.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Tests/CRUD/PUT/NonBDDPUT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Tests/CRUD/testng-crud.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/testng/TestNG00.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/testng/TestNG01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/testng/TestNG02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng - allannotations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng - testng02.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/Tests/CRUD/DELETE/NonBDDDELETE.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/Tests/CRUD/DELETE/NonBDDDELETE.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,48 +52,46 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.BDDPost.executor": "Run",
     "TestNG.C:/Users/Maruf.sherikar.EXT.SVKMGRP/IdeaProjects/APITestingRestAssuredAutomation/src/test/java/org/example/Tests/CRUD/POST/testng-post.xml.executor": "Run",
+    "TestNG.C:/Users/Maruf.sherikar.EXT.SVKMGRP/IdeaProjects/APITestingRestAssuredAutomation/testng - allannotations.xml.executor": "Run",
+    "TestNG.C:/Users/Maruf.sherikar.EXT.SVKMGRP/IdeaProjects/APITestingRestAssuredAutomation/testng - testng02.xml.executor": "Run",
     "TestNG.C:/Users/Maruf.sherikar.EXT.SVKMGRP/IdeaProjects/APITestingRestAssuredAutomation/testng.xml.executor": "Run",
     "TestNG.NonBDDDELETE.testDeleterequest.executor": "Run",
     "TestNG.NonBDDPATCH.testPatchRequest.executor": "Run",
     "TestNG.NonBDDPUT.testPutRequest.executor": "Run",
+    "TestNG.TestNG00.executor": "Run",
+    "TestNG.TestNG01.executor": "Run",
     "TestNG.TestNGGETRequestNonBDD.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Maruf.sherikar.EXT.SVKMGRP/IdeaProjects/APITestingRestAssuredAutomation/src/test/java/org/example/Tests/CRUD",
+    "last_opened_file_path": "C:/Users/Maruf.sherikar.EXT.SVKMGRP/IdeaProjects/APITestingRestAssuredAutomation",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Maruf.sherikar.EXT.SVKMGRP\IdeaProjects\APITestingRestAssuredAutomation\src\test\java\org\example\Tests\CRUD" />
       <recent name="C:\Users\Maruf.sherikar.EXT.SVKMGRP\IdeaProjects\APITestingRestAssuredAutomation" />
+      <recent name="C:\Users\Maruf.sherikar.EXT.SVKMGRP\IdeaProjects\APITestingRestAssuredAutomation\src\test\java\org\example\Tests\CRUD" />
       <recent name="C:\Users\Maruf.sherikar.EXT.SVKMGRP\IdeaProjects\APITestingRestAssuredAutomation\src\test\java\org\example\Tests\CRUD\POST" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.testng" />
       <recent name="org.example.Tests.CRUD.GET" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.NonBDDDELETE.testDeleterequest">
-    <configuration name="BDDPost" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.C:/Users/Maruf.sherikar.EXT.SVKMGRP/IdeaProjects/APITestingRestAssuredAutomation/testng - testng02.xml">
+    <configuration name="C:/Users/Maruf.sherikar.EXT.SVKMGRP/IdeaProjects/APITestingRestAssuredAutomation/testng - allannotations.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APITestingRestAssuredAutomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.Tests.CRUD.POST.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.Tests.CRUD.POST" />
-      <option name="MAIN_CLASS_NAME" value="org.example.Tests.CRUD.POST.BDDPost" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng - allannotations.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C:/Users/Maruf.sherikar.EXT.SVKMGRP/IdeaProjects/APITestingRestAssuredAutomation/src/test/java/org/example/Tests/CRUD/POST/testng-post.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Users/Maruf.sherikar.EXT.SVKMGRP/IdeaProjects/APITestingRestAssuredAutomation/testng - testng02.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APITestingRestAssuredAutomation" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/org/example/Tests/CRUD/POST/testng-post.xml" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng - testng02.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -116,36 +117,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NonBDDPATCH.testPatchRequest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestNG00" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APITestingRestAssuredAutomation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.Tests.CRUD.PATCH.*" />
+          <option name="PATTERN" value="org.example.testng.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.Tests.CRUD.PATCH" />
-      <option name="MAIN_CLASS_NAME" value="org.example.Tests.CRUD.PATCH.NonBDDPATCH" />
-      <option name="METHOD_NAME" value="testPatchRequest" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="org.example.testng" />
+      <option name="MAIN_CLASS_NAME" value="org.example.testng.TestNG00" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NonBDDPUT.testPutRequest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestNG01" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APITestingRestAssuredAutomation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.Tests.CRUD.PUT.*" />
+          <option name="PATTERN" value="org.example.testng.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.Tests.CRUD.PUT" />
-      <option name="MAIN_CLASS_NAME" value="org.example.Tests.CRUD.PUT.NonBDDPUT" />
-      <option name="METHOD_NAME" value="testPutRequest" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="org.example.testng" />
+      <option name="MAIN_CLASS_NAME" value="org.example.testng.TestNG01" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -154,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/Maruf.sherikar.EXT.SVKMGRP/IdeaProjects/APITestingRestAssuredAutomation/testng - testng02.xml" />
+        <item itemvalue="TestNG.C:/Users/Maruf.sherikar.EXT.SVKMGRP/IdeaProjects/APITestingRestAssuredAutomation/testng - allannotations.xml" />
+        <item itemvalue="TestNG.TestNG01" />
+        <item itemvalue="TestNG.TestNG00" />
         <item itemvalue="TestNG.NonBDDDELETE.testDeleterequest" />
-        <item itemvalue="TestNG.NonBDDPATCH.testPatchRequest" />
-        <item itemvalue="TestNG.NonBDDPUT.testPutRequest" />
-        <item itemvalue="TestNG.C:/Users/Maruf.sherikar.EXT.SVKMGRP/IdeaProjects/APITestingRestAssuredAutomation/src/test/java/org/example/Tests/CRUD/POST/testng-post.xml" />
-        <item itemvalue="TestNG.BDDPost" />
       </list>
     </recent_temporary>
   </component>

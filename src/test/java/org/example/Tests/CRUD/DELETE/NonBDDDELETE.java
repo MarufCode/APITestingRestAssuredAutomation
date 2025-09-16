@@ -24,6 +24,7 @@ public class NonBDDDELETE {
     public void testDeleterequest(){
 
 
+        //Given
 
         requestSpecification = RestAssured.given();
         requestSpecification.baseUri("https://restful-booker.herokuapp.com/");
@@ -34,11 +35,11 @@ public class NonBDDDELETE {
 
 
 
-        // when
+        // When
         Response response = requestSpecification.when().delete();
 
 
-        //then
+        // Then
 
         validatableResponse = response.then().log().all();
         validatableResponse.statusCode(201);
