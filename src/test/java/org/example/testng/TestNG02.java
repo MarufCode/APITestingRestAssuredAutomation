@@ -56,7 +56,7 @@ public class TestNG02 {
     public void NonBDDPUTRequest() {
         String payload = "{\n" +
                 "    \"firstname\" : \"Maruf\",\n" +
-                "    \"lastname\" : \"Brown\",\n" +
+                "    \"lastname\" : \"CSK\",\n" +
                 "    \"totalprice\" : 777,\n" +
                 "    \"depositpaid\" : true,\n" +
                 "    \"bookingdates\" : { \n" +
@@ -69,7 +69,7 @@ public class TestNG02 {
 
         requestSpecification = RestAssured.given();
         requestSpecification.baseUri("https://restful-booker.herokuapp.com/");
-        requestSpecification.basePath("booking/1971");
+        requestSpecification.basePath("booking/2119");
         requestSpecification.contentType(ContentType.JSON);
         requestSpecification.cookie("token", token);
 
@@ -77,7 +77,7 @@ public class TestNG02 {
         requestSpecification.body(payload).log().all();
 
 
-        // Calling PUT Method on URI. After hitting gwe get response.
+        // Calling PUT Method on URI. After hitting we get response.
 
 
         Response response = requestSpecification.when().put();
@@ -88,7 +88,7 @@ public class TestNG02 {
         validatableResponse = response.then().log().all();
         validatableResponse.statusCode(200);
         validatableResponse.body("firstname", Matchers.equalTo("Maruf"));
-        validatableResponse.body("lastname", Matchers.equalTo("Brown"));
+        validatableResponse.body("lastname", Matchers.equalTo("CSK"));
 
     }
 }
