@@ -96,7 +96,7 @@ public class TestNG05 {
 
 
     @Test
-    public void PUT(){
+    public void PUTReq(){
         System.out.println("test case PUT request");
 
 
@@ -123,10 +123,7 @@ public class TestNG05 {
 
         requestSpecification.body(payload).log().all();
 
-
-
         // Calling PUT Method on URI. After hitting gwe get response.
-
 
         Response response = requestSpecification.when().put();
 
@@ -139,12 +136,10 @@ public class TestNG05 {
         validatableResponse.body("lastname", Matchers.equalTo("Bhai"));
 
 
-
-
     }
 
     @Test
-    public void PUT2(){
+    public void PUTReq2(){
         System.out.println("test case PUT request");
 
 
