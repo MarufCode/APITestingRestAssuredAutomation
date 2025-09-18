@@ -3,7 +3,7 @@ package org.example.testng;
 import org.testng.annotations.Test;
 
 
-public class TestNG10 {
+public class dependsOnGroups {
 
 
     @Test(groups = {"init"}, priority = 1)

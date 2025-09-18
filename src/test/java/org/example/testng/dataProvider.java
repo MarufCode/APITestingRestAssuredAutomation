@@ -3,7 +3,7 @@ package org.example.testng;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-public class TestNG12 {
+public class dataProvider {
 
 
     @DataProvider

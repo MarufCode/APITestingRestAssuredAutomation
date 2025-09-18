@@ -3,7 +3,7 @@ package org.example.testng;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-public class TestNG11 {
+public class parameters {
 
 
 

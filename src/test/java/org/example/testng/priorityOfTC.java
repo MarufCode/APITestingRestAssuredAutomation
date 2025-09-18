@@ -2,7 +2,7 @@ package org.example.testng;
 
 import org.testng.annotations.Test;
 
-public class TestNG06 {
+public class priorityOfTC {
 
     @Test
     public void t1(){

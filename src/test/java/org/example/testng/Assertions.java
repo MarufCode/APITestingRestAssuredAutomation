@@ -4,7 +4,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
-public class TestNG08 {
+public class Assertions {
 
     // TestNG provides twi assertion
 

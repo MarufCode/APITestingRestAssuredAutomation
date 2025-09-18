@@ -10,7 +10,7 @@
         </groups>
 
         <classes>
-            <class name="org.example.testng.TestNG07">
+            <class name="org.example.testng.groupingOfTC">
             </class>
         </classes>
     </test>

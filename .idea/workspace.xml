@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ba1fb613-5711-48d0-86ea-29fad44683ce" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/DDT/ddt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/testng/TestNG09.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/testng/TestNG10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/testng/TestNG11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/testng/TestNG12.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/testng/TestNGNotes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng-param-testng-11.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/testng/TestNG12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/testng/dataProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng-param-testng-11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng-param-testng-11.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +84,7 @@
       <recent name="org.example.Tests.CRUD.GET" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TestNG12">
+  <component name="RunManager">
     <configuration name="C:/Users/Maruf.sherikar.EXT.SVKMGRP/IdeaProjects/APITestingRestAssuredAutomation/testng-param-testng-11.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APITestingRestAssuredAutomation" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng-param-testng-11.xml" />
@@ -151,7 +146,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestNG12" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="dataProvider" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APITestingRestAssuredAutomation" />
       <extension name="coverage">
         <pattern>
@@ -160,7 +155,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example.testng" />
-      <option name="MAIN_CLASS_NAME" value="org.example.testng.TestNG12" />
+      <option name="MAIN_CLASS_NAME" value="org.example.testng.dataProvider" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -170,7 +165,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestNG12" />
+        <item itemvalue="TestNG.dataProvider" />
         <item itemvalue="TestNG.C:/Users/Maruf.sherikar.EXT.SVKMGRP/IdeaProjects/APITestingRestAssuredAutomation/testng-param-testng-11.xml" />
         <item itemvalue="TestNG.TestNG11" />
         <item itemvalue="TestNG.TestNG10" />

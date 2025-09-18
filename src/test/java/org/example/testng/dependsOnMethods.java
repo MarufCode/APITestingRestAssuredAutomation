@@ -2,7 +2,7 @@ package org.example.testng;
 
 import org.testng.annotations.Test;
 
-public class TestNG09 {
+public class dependsOnMethods {
 
 
     @Test

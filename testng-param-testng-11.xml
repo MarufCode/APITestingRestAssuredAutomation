@@ -4,7 +4,7 @@
     <test verbose="2" preserve-order="true" name="C:/Users/Maruf.sherikar.EXT.SVKMGRP/IdeaProjects/APITestingRestAssuredAutomation">
         <parameter name="browser" value="chrome"></parameter>
         <classes>
-            <class name="org.example.testng.TestNG11">
+            <class name="org.example.testng.parameters">
 
             </class>
         </classes>
