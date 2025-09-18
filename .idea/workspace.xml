@@ -5,12 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ba1fb613-5711-48d0-86ea-29fad44683ce" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/testng/TestNG06.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/testng/TestNG07.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/testng/TestNG08.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng - testng06-grouping.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/DDT/ddt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/testng/TestNG09.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/testng/TestNG10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/testng/TestNG11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/testng/TestNG12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/testng/TestNGNotes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng-param-testng-11.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/testng/TestNG05.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/testng/TestNG05.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +56,7 @@
     "TestNG.C:/Users/Maruf.sherikar.EXT.SVKMGRP/IdeaProjects/APITestingRestAssuredAutomation/testng - testng02.xml.executor": "Run",
     "TestNG.C:/Users/Maruf.sherikar.EXT.SVKMGRP/IdeaProjects/APITestingRestAssuredAutomation/testng - testng05.xml.executor": "Run",
     "TestNG.C:/Users/Maruf.sherikar.EXT.SVKMGRP/IdeaProjects/APITestingRestAssuredAutomation/testng - testng06-grouping.xml.executor": "Run",
+    "TestNG.C:/Users/Maruf.sherikar.EXT.SVKMGRP/IdeaProjects/APITestingRestAssuredAutomation/testng-param-testng-11.xml.executor": "Run",
     "TestNG.C:/Users/Maruf.sherikar.EXT.SVKMGRP/IdeaProjects/APITestingRestAssuredAutomation/testng.xml.executor": "Run",
     "TestNG.NonBDDDELETE.testDeleterequest.executor": "Run",
     "TestNG.NonBDDPATCH.testPatchRequest.executor": "Run",
@@ -64,6 +67,10 @@
     "TestNG.TestNG04.executor": "Run",
     "TestNG.TestNG06.executor": "Run",
     "TestNG.TestNG08.testcase1.executor": "Run",
+    "TestNG.TestNG09.executor": "Run",
+    "TestNG.TestNG10.executor": "Run",
+    "TestNG.TestNG11.executor": "Run",
+    "TestNG.TestNG12.executor": "Run",
     "TestNG.TestNGGETRequestNonBDD.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
@@ -82,10 +89,10 @@
       <recent name="org.example.Tests.CRUD.GET" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TestNG08.testcase1">
-    <configuration name="C:/Users/Maruf.sherikar.EXT.SVKMGRP/IdeaProjects/APITestingRestAssuredAutomation/testng - testng05.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.TestNG12">
+    <configuration name="C:/Users/Maruf.sherikar.EXT.SVKMGRP/IdeaProjects/APITestingRestAssuredAutomation/testng-param-testng-11.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APITestingRestAssuredAutomation" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng - testng05.xml" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng-param-testng-11.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -93,17 +100,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C:/Users/Maruf.sherikar.EXT.SVKMGRP/IdeaProjects/APITestingRestAssuredAutomation/testng - testng06-grouping.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="APITestingRestAssuredAutomation" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng - testng06-grouping.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestNG04" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestNG09" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APITestingRestAssuredAutomation" />
       <extension name="coverage">
         <pattern>
@@ -112,7 +109,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example.testng" />
-      <option name="MAIN_CLASS_NAME" value="org.example.testng.TestNG04" />
+      <option name="MAIN_CLASS_NAME" value="org.example.testng.TestNG09" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -120,7 +117,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestNG06" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestNG10" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APITestingRestAssuredAutomation" />
       <extension name="coverage">
         <pattern>
@@ -129,7 +126,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example.testng" />
-      <option name="MAIN_CLASS_NAME" value="org.example.testng.TestNG06" />
+      <option name="MAIN_CLASS_NAME" value="org.example.testng.TestNG10" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -137,7 +134,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestNG08.testcase1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestNG11" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APITestingRestAssuredAutomation" />
       <extension name="coverage">
         <pattern>
@@ -146,9 +143,25 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example.testng" />
-      <option name="MAIN_CLASS_NAME" value="org.example.testng.TestNG08" />
-      <option name="METHOD_NAME" value="testcase1" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="org.example.testng.TestNG11" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestNG12" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APITestingRestAssuredAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.testng.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.testng" />
+      <option name="MAIN_CLASS_NAME" value="org.example.testng.TestNG12" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -157,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestNG08.testcase1" />
-        <item itemvalue="TestNG.C:/Users/Maruf.sherikar.EXT.SVKMGRP/IdeaProjects/APITestingRestAssuredAutomation/testng - testng06-grouping.xml" />
-        <item itemvalue="TestNG.TestNG06" />
-        <item itemvalue="TestNG.C:/Users/Maruf.sherikar.EXT.SVKMGRP/IdeaProjects/APITestingRestAssuredAutomation/testng - testng05.xml" />
-        <item itemvalue="TestNG.TestNG04" />
+        <item itemvalue="TestNG.TestNG12" />
+        <item itemvalue="TestNG.C:/Users/Maruf.sherikar.EXT.SVKMGRP/IdeaProjects/APITestingRestAssuredAutomation/testng-param-testng-11.xml" />
+        <item itemvalue="TestNG.TestNG11" />
+        <item itemvalue="TestNG.TestNG10" />
+        <item itemvalue="TestNG.TestNG09" />
       </list>
     </recent_temporary>
   </component>
