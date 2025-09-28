@@ -1,4 +1,4 @@
-package org.example.testng;
+package org.example.testng.testngexamples;
 
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
