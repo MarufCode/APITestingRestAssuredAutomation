@@ -5,17 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ba1fb613-5711-48d0-86ea-29fad44683ce" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/testng/DDT/utilsExcel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/testng/listenerDemo/CustomListeners.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/testng/listenerDemo/TC01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/testng/listenerDemo/testng - TC01.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/testng/parellelExecution/MainClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/testng/parellelExecution/testng - parellel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/testDataExcel.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/misc/payloadmap/payloadUsingMap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/testng/DDT/ddt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/testng/DDT/ddt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng - testng06-grouping.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng - testng06-grouping.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +73,7 @@
     "TestNG.TestNGGETRequestNonBDD.executor": "Run",
     "TestNG.ddt.testLogin.executor": "Run",
     "TestNG.ddt.testVWOPOST.executor": "Run",
+    "TestNG.payloadUsingMap.testPOSTReq.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Maruf.sherikar.EXT.SVKMGRP/IdeaProjects/APITestingRestAssuredAutomation/src/test/java/org/example/testng/parellelExecution",
@@ -100,7 +93,7 @@
       <recent name="org.example.Tests.CRUD.GET" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/Maruf.sherikar.EXT.SVKMGRP/IdeaProjects/APITestingRestAssuredAutomation/src/test/java/org/example/testng/parellelExecution/testng - parellel.xml">
+  <component name="RunManager" selected="TestNG.payloadUsingMap.testPOSTReq">
     <configuration name="C:/Users/Maruf.sherikar.EXT.SVKMGRP/IdeaProjects/APITestingRestAssuredAutomation/src/test/java/org/example/testng/listenerDemo/testng - TC01.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APITestingRestAssuredAutomation" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/org/example/testng/listenerDemo/testng - TC01.xml" />
@@ -131,24 +124,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ddt.testLogin" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="APITestingRestAssuredAutomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.testng.DDT.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.testng.DDT" />
-      <option name="MAIN_CLASS_NAME" value="org.example.testng.DDT.ddt" />
-      <option name="METHOD_NAME" value="testLogin" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ddt.testVWOPOST" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APITestingRestAssuredAutomation" />
       <extension name="coverage">
@@ -167,13 +142,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="payloadUsingMap.testPOSTReq" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APITestingRestAssuredAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.misc.payloadmap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.misc.payloadmap" />
+      <option name="MAIN_CLASS_NAME" value="org.example.misc.payloadmap.payloadUsingMap" />
+      <option name="METHOD_NAME" value="testPOSTReq" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.payloadUsingMap.testPOSTReq" />
         <item itemvalue="TestNG.C:/Users/Maruf.sherikar.EXT.SVKMGRP/IdeaProjects/APITestingRestAssuredAutomation/src/test/java/org/example/testng/parellelExecution/testng - parellel.xml" />
         <item itemvalue="TestNG.C:/Users/Maruf.sherikar.EXT.SVKMGRP/IdeaProjects/APITestingRestAssuredAutomation/src/test/java/org/example/testng/listenerDemo/testng - TC01.xml" />
         <item itemvalue="TestNG.C:/Users/Maruf.sherikar.EXT.SVKMGRP/IdeaProjects/APITestingRestAssuredAutomation/src/test/java/org/example/testng/listenerDemo/testng - litenersDemo.xml" />
         <item itemvalue="TestNG.ddt.testVWOPOST" />
-        <item itemvalue="TestNG.ddt.testLogin" />
       </list>
     </recent_temporary>
   </component>
@@ -187,5 +180,16 @@
       <updated>1756204481087</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
