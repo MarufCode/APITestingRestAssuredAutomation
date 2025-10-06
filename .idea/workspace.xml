@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ba1fb613-5711-48d0-86ea-29fad44683ce" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/misc/payloadmap/payloadUsingMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/misc/payloadmap/gson/Booking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/misc/payloadmap/gson/Bookingdates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/misc/payloadmap/gson/demo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +74,7 @@
     "TestNG.TestNGGETRequestNonBDD.executor": "Run",
     "TestNG.ddt.testLogin.executor": "Run",
     "TestNG.ddt.testVWOPOST.executor": "Run",
+    "TestNG.demo.testPost.executor": "Run",
     "TestNG.payloadUsingMap.testPOSTReq.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
@@ -93,7 +95,7 @@
       <recent name="org.example.Tests.CRUD.GET" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.payloadUsingMap.testPOSTReq">
+  <component name="RunManager" selected="TestNG.demo.testPost">
     <configuration name="C:/Users/Maruf.sherikar.EXT.SVKMGRP/IdeaProjects/APITestingRestAssuredAutomation/src/test/java/org/example/testng/listenerDemo/testng - TC01.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APITestingRestAssuredAutomation" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/org/example/testng/listenerDemo/testng - TC01.xml" />
@@ -124,17 +126,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ddt.testVWOPOST" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="demo.testPost" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APITestingRestAssuredAutomation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.testng.DDT.*" />
+          <option name="PATTERN" value="org.example.misc.payloadmap.gson.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.testng.DDT" />
-      <option name="MAIN_CLASS_NAME" value="org.example.testng.DDT.ddt" />
-      <option name="METHOD_NAME" value="testVWOPOST" />
+      <option name="PACKAGE_NAME" value="org.example.misc.payloadmap.gson" />
+      <option name="MAIN_CLASS_NAME" value="org.example.misc.payloadmap.gson.demo" />
+      <option name="METHOD_NAME" value="testPost" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -162,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.demo.testPost" />
         <item itemvalue="TestNG.payloadUsingMap.testPOSTReq" />
         <item itemvalue="TestNG.C:/Users/Maruf.sherikar.EXT.SVKMGRP/IdeaProjects/APITestingRestAssuredAutomation/src/test/java/org/example/testng/parellelExecution/testng - parellel.xml" />
         <item itemvalue="TestNG.C:/Users/Maruf.sherikar.EXT.SVKMGRP/IdeaProjects/APITestingRestAssuredAutomation/src/test/java/org/example/testng/listenerDemo/testng - TC01.xml" />
         <item itemvalue="TestNG.C:/Users/Maruf.sherikar.EXT.SVKMGRP/IdeaProjects/APITestingRestAssuredAutomation/src/test/java/org/example/testng/listenerDemo/testng - litenersDemo.xml" />
-        <item itemvalue="TestNG.ddt.testVWOPOST" />
       </list>
     </recent_temporary>
   </component>
