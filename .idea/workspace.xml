@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ba1fb613-5711-48d0-86ea-29fad44683ce" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/misc/payloadmap/gson/POSTReqTC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/misc/payloadmap/gson/example/Booking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/misc/payloadmap/gson/example/BookingResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/misc/payloadmap/gson/example/Bookingdates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/misc/payloadmap/gson/example/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/misc/payloadmap/gson/example/SerializationExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/testng/testngexamples/Assertions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/testng/testngexamples/Assertions.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
